@@ -1,0 +1,112 @@
+---
+name: Lisa
+surname: Anders
+position: "Electrical Engineer passionate about scaleable data infrastructure and actionable analytics in manufacturing. Focused on enabling success through enthusiastic cross-functional collaboration."
+phone: +1 979 633 8359
+email: "lisamaeanders@gmail.com"
+github: leesahanders
+linkedin: lisa-anders-engineer
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 414141
+output: 
+  vitae::awesomecv:
+    page_total: true
+---
+
+
+```{r setup, include=FALSE}
+# Load libraries and turn off error messages
+
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+
+library(vitae)
+library(tibble)
+```
+
+# Employment History
+
+```{r}
+# Using Vitae and Tibble / Tribble
+
+tribble(
+  ~ Company, ~ Year, ~ Where, ~ Position, ~ Details,
+  "Illumina", "Feb 2019-Present", "San Diego, CA, USA", "Sr. Product Engineer", 
+  list("Deployed RStudio Connect server on Centos 8 / Red Hat on-prem server and aligned with information security / data governance requirements leading to successful adoption cross-company with usage by over 7 depaartments and migration to cloud server.",
+       "Developed and maintained scaleable data pipelines and  ETL’s on Microsoft SQL, Denodo, Postgres, and tool log data sources for transparent, scaleable, and democratized data insights.",
+       #"Developed and maintained scaleable data pipelines and  ETL’s on Microsoft SQL, Denodo, Postgres, and tool log data sources for transparent, scaleable, and democratized data insights. Acted as area facilitator for data pipeline development cross functional team providing business case/project management through Asana and Jira and performing integrity testing.",
+       "Created Rmarkdowns, Shiny webapps, Tableau reports, and SPC charts enabling users to make strategic decisions. Example: Developed quasi-realtime Graft Expiring Flow Cells widget which has resulted in >17k / quarter scrap avoidance by the manufacturing team.", 
+       "CAPA / excursion response team member gathering and visualizing key process data and led causal analysis studies leading to successful resolution of issues on two separate customer impacting events."),
+  
+  "Tronics MEMs, A TDK Group Company", "Sept 2017-Feb 2019", "Addison, TX, USA", "BioMEMS Process and Integration Engineer", 
+  list("Product lead for developing the processes and metrology for manufacturing 4 unique bioMEMS devices. Managed project schedule and inventory tracking using Waterfall and Agile Methodology. Developed first ever dashboard reporting on critical product and equipment metrics, including tool up/down time, SPC data, and product CPK.",
+       #"Developed new back-end-of-line singulation flow and set up outsource vendor: flow directly lead to acquisition of a new contract and capability to produce a custom device at low defect levels (>99% yield).",
+       "Renegotiated customer specifications on custom product after improving quality of manufacturing process. Identified root causes of low anodic bond yield through statistical data analysis and DOE's and implemented new clean procedure and best practices to improve process yield by over 30 percent. Developed KOH wet etch for achieving very low surface roughness."
+       #,"Created company first ever dashboard reporting using SQL and Microsoft Report Builder for critical product and equipment metrics, including tool up/down time, SPC data, and product CPK."
+       ),
+    
+  "Texas Instruments: Leadership Development Rotation Program", "Aug 2014-Aug 2017", "Dallas, TX, USA", "Process Integration Engineer", 
+  list("Designed test structures, ran DOE's, and analyzed electrical data and Wafer Level Reliability (WLR) data to characterize parasitic diode elements on new precision analog technology for automotive applications."),
+  
+  "", "", "Clark, Philippines", "Probe Product/Application Engineer", 
+  list("Implemented SQL/Java parametric drift web application as part of team of developers. Applied statistical process controls, six sigma, and WECO statistics, to catch failures before yield impact."
+       #, "Led 6 person team for test hardware improvement on high volume wafer probe manufacturing line."
+       ),
+  
+  "", "", "Dallas, TX", "Fab Product Engineer", 
+  list("Analyzed wafer signatures to improve site-wide yield and reduce sources of failure and enabled manufacturing ramp of 5 new devices as part of New Product Introduction (NPI) team.")  
+  
+) %>%
+  detailed_entries(Position, Where, Company, Year, Details)
+
+```
+
+
+
+# Education
+
+```{r}
+tribble(
+  ~ Degree, ~ Year, ~ Institution, ~ Where, ~ Details,
+  "M.S. Electrical Engineering, Biomedical Emphasis", "Aug 2014", "Virginia Tech", "Blacksburg, VA",
+  list("Thesis: Lab on a chip rare cell isolation platform with dielectrophoretic smart sample focusing, automated whole cell tracking analysis script, and bioinspired on-chip electroactive polymer micropump","Highlight Courses: Machine Vision I and II (OpenCV w/ Matlab), MEMS Manufacturing"),
+  "B.S. Electrical Engineering ", "Aug 2012", "University of Alaska Fairbanks", "Fairbanks, AK",
+  list("Minor: Biology")
+) %>% 
+  detailed_entries(Degree, Where, Institution, Year, Details)
+```
+
+# Skills
+
+**Data Skills / Programming:** SQL/VQL, Matlab, R, RMarkdown, Shiny, HTML, CSS, Denodo, Microsoft SQL Server, AWS (S3), Git/Github, DBeaver
+
+**Software:** Spotfire, Dataware, Cadence, Wafer Sleuth, JMP, Solidworks, Matlab, MES, Comsol/Matlab, Klayout, CAD, RStudio, Centos / RedHat Linux, Windows, Microsoft Office, Asana, Jira
+
+* **Currently learning:** Python, Neo4J, Docker
+
+**General:** Analysis, manufacturing, bench testing, project management, FMEA, ISO 9001, ISO 13485, ITAR, GMP
+
+```{r}
+# Backup section, might add back if this is converted to a CV in the future 
+#
+# **Manufacturing Processes:** MEMS, PDMS, soft lithography, cell passaging and handling techniques, failure analysis (SEM, EDX, SAM), photolithography, nanoimprint lithography, wet etch, KOH etching, wafer bond, solvent cleans, plasma ash, RIE and DRIE dry etches, thin films, metallization, metrology, graft, dice, soldering, oscilloscope, etc.
+#
+#  * **Currently learning:** Python, Neo4J, Docker
+#
+# # Interests 
+# 
+# Data and analytics ethics, science fiction, hiking, and playing board games with friends. 
+#
+# Previous experience includes broad hands-on manufacturing experience in both high-volume and custom semiconductor and bioMEMS fabrication.
+```
+
+```{r}
+# References: 
+#https://tex.stackexchange.com/questions/377071/change-the-color-of-three-first-letters-in-awesome-cv-posquito-from-red-to-blu
+#https://cran.r-project.org/web/packages/vitae/vignettes/vitae.html
+#https://github.com/mitchelloharawild/CV
+#https://github.com/mitchelloharawild/vitae
+#https://github.com/akirosingh/CV
+#https://rmarkdown.rstudio.com/authoring_basics.html
+```
+
+
