@@ -77,7 +77,7 @@ tribble(
 
 # Skills
 
-**Data Skills / Programming:** SQL/VQL, Matlab, R, RMarkdown, Shiny, HTML, CSS, Denodo, Microsoft SQL Server, AWS (S3), Git/Github, DBeaver
+**Data Skills / Programming:** SQL/VQL, Matlab, R, RMarkdown, Shiny, HTML, CSS, Denodo, Microsoft SQL Server, AWS (S3), Git/Github, DBeaver, MobaXTerm, Putty
 
 **Software:** Spotfire, Dataware, Cadence, Wafer Sleuth, JMP, Solidworks, Matlab, MES, Comsol/Matlab, Klayout, CAD, RStudio, Centos / RedHat Linux, Windows, Microsoft Office, Asana, Jira
 
