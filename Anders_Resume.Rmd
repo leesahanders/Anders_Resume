@@ -77,11 +77,11 @@ tribble(
 
 # Skills
 
-**Data Skills / Programming:** SQL/VQL, Matlab, R, RMarkdown, Shiny, HTML, CSS, Denodo, Microsoft SQL Server, AWS (S3), Git/Github, DBeaver, MobaXTerm, Putty
+**Data Skills / Programming:** SQL/VQL, Matlab, R, RMarkdown, Shiny, HTML, CSS, JSON, Denodo, Microsoft SQL Server, AWS (S3), Git/Github, DBeaver, MobaXTerm, Putty
 
-**Software:** Spotfire, Dataware, Cadence, Wafer Sleuth, JMP, Solidworks, Matlab, MES, Comsol/Matlab, Klayout, CAD, RStudio, Centos / RedHat Linux, Windows, Microsoft Office, Asana, Jira
+**Software:** Spotfire, Dataware, Cadence, Wafer Sleuth, JMP, Solidworks, Matlab, MES (CAMSTAR, EZMES), Comsol/Matlab, Klayout, CAD, RStudio, Centos / RedHat Linux, Windows, Microsoft Office, Asana, Jira, Confluence
 
-* **Currently learning:** Python, Neo4J, Docker
+* **Currently learning:** Python, Neo4J, Docker, Java
 
 **General:** Analysis, manufacturing, bench testing, project management, FMEA, ISO 9001, ISO 13485, ITAR, GMP
 
